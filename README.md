@@ -34,3 +34,8 @@ To input from file, file must be named matrix.txt and write
 cmdMazeSolver.exe -1
 ```
 If file was created properly, program will determine the size of the matrix automatically 
+
+
+## _Problems with the algorithm_
+- The algorithm that solves the maze DOES NOT find the shortest possible route.
+- Start and exit are always in the left upper corner and right down corner
